@@ -2,6 +2,7 @@
   "name": "ipl_social",
   "version": "1.0.0",
   "description": "examen ",
+  "type": "module",
   "main": "passwordChecker.js",
   "scripts": {
     "test": "jasmine"
