@@ -32,4 +32,8 @@ describe("Test for at leats a number in the password", function(){
         let result = passwordChecker.checkNumber("123456@4")
         expect(true).toBe(true)
     })
+    it("Should return false, no number", function() {
+        let result = passwordChecker.checkNumber("pasjko@o")
+        expect(result).toBe(false)
+    })
 })
