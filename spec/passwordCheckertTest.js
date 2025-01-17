@@ -37,3 +37,16 @@ describe("Test for at leats a number in the password", function(){
         expect(result).toBe(false)
     })
 })
+
+describe("Test : password can't contain IPL/ipl", function(){
+
+    it("SHould return true because no IPL/ipl", function(){
+        let result =passwordChecker.checkIPL("123456@7")
+        expect(true).toBe(false)
+    })
+
+    it("Should return false cause password contains IPL/ipl", function(){
+        let result = passwordChecker.checkNumber("123IPL@aadd")
+        expect(false).toBe(false)
+    })
+})

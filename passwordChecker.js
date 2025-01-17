@@ -21,4 +21,8 @@ export class PasswordChecker {
           }
           return false;
     }
+
+    checkIPL(pwd){
+        return true
+    }
 }
