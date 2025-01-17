@@ -1,12 +1,11 @@
 export class PasswordChecker {
 
     check8Char(pwd){
-        if (pwd.lenght < 8){
-            console.log("HEREER")
-            return false
+        if (pwd.lenght() >= 8){
+            return true
         }
 
-        return true;
+        return false;
     }
 
     checkSpecialChar(pwd){
