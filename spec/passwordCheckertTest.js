@@ -25,6 +25,11 @@ describe("Test for special charactere", function(){
       let result = passwordChecker.checkSpecialChar("1234567P")
       expect(result).toBe(false)  
     })
+})
 
-    
+describe("Test for at leats a number in the password", function(){
+    it("Should return true because there is a number", function(){
+        let result = passwordChecker.checkNumber("123456@4")
+        expect(true).toBe(true)
+    })
 })

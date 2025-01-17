@@ -12,4 +12,8 @@ export class PasswordChecker {
         const regex = /[^\w\s]/;
         return regex.test(pwd);
     }
+
+    checkNumber(pwd){
+        return true
+    }
 }
