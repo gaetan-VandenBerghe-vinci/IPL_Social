@@ -13,3 +13,13 @@ describe("Test for at least 8 charactere", function (){
         expect(result).toBe(false);
     })
 })
+
+
+describe("Test for special charactere", function(){
+    it("Should return true because there is a special char", function(){
+        let result = passwordChecker.checkSpecialChar("1234567#")
+        expect(result).toBe(true)
+    })
+
+    
+})
