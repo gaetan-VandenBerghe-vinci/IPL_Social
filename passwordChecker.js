@@ -14,6 +14,11 @@ export class PasswordChecker {
     }
 
     checkNumber(pwd){
-        return true
+        for (let i = 0; i < pwd.length; i++) {
+            if (!isNaN(pwd[i])) {
+              return true;
+            }
+          }
+          return false;
     }
 }
