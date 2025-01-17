@@ -1,14 +1,15 @@
 export class PasswordChecker {
 
-    check8Char(pwd){
-        if (pwd.lenght() >= 8){
-            return true
+    check8Char(pwd) {
+        if (pwd.length >= 8) {
+          return true;
+        } else {
+          return false;
         }
-
-        return false;
-    }
+      } 
 
     checkSpecialChar(pwd){
-        return true
+        const regex = /[^\w\s]/;
+        return regex.test(pwd);
     }
 }

@@ -4,7 +4,7 @@ let passwordChecker = new PasswordChecker()
 
 describe("Test for at least 8 charactere", function (){
     it("Should return true cause 8 char", function(){
-        let result = passwordChecker.check8Char("12345678");
+        let result = passwordChecker.check8Char("12345678ZDZDZD");
         expect(result).toBe(true)
     })
 
