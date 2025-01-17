@@ -1,0 +1,22 @@
+{
+  "name": "ipl_social",
+  "version": "1.0.0",
+  "description": "examen ",
+  "main": "passwordChecker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaetan-VandenBerghe-vinci/IPL_Social.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaetan-VandenBerghe-vinci/IPL_Social/issues"
+  },
+  "homepage": "https://github.com/gaetan-VandenBerghe-vinci/IPL_Social#readme",
+  "devDependencies": {
+    "jasmine": "^5.5.0"
+  }
+}
