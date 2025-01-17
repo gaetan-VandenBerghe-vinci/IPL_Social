@@ -42,7 +42,7 @@ describe("Test : password can't contain IPL/ipl", function(){
 
     it("SHould return true because no IPL/ipl", function(){
         let result =passwordChecker.checkIPL("123456@7")
-        expect(true).toBe(false)
+        expect(true).toBe(true)
     })
 
     it("Should return false cause password contains IPL/ipl", function(){

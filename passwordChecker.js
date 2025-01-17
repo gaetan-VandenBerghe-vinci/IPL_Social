@@ -23,6 +23,6 @@ export class PasswordChecker {
     }
 
     checkIPL(pwd){
-        return true
+        return !/IPL|ipl/.test(pwd);
     }
 }
